@@ -19,39 +19,6 @@ export default function Home() {
           <SkillsSection />
           <EducationSection />
         </main>
-
-        <footer className="mt-24 pb-16 text-sm text-muted-foreground">
-          <p>
-            Designed and built with{" "}
-            <a
-              href="https://nextjs.org"
-              className="font-medium text-foreground transition-colors hover:text-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Next.js
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://tailwindcss.com"
-              className="font-medium text-foreground transition-colors hover:text-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Tailwind CSS
-            </a>
-            . Inspired by{" "}
-            <a
-              href="https://brittanychiang.com"
-              className="font-medium text-foreground transition-colors hover:text-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              brittanychiang.com
-            </a>
-            .
-          </p>
-        </footer>
       </div>
     </div>
   )

@@ -51,6 +51,18 @@ const experiences: ExperienceItem[] = [
         src: "/images/hybiot3.png",
         alt: "ICMP Role Management - Role configuration with color picker and permission settings",
       },
+      {
+        src: "/images/kmitl.png",
+        alt: "KMITL project - ผลงานที่ Hybiot 1",
+      },
+      {
+        src: "/images/kmitl2.png",
+        alt: "KMITL project - ผลงานที่ Hybiot 2",
+      },
+      {
+        src: "/images/kmitl3.png",
+        alt: "KMITL project - ผลงานที่ Hybiot 3",
+      },
     ],
   },
   {

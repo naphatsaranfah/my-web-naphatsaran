@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Calendar, Mail, MapPin, Phone } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -37,6 +37,10 @@ export function HeroSection() {
       </nav>
 
       <ul className="mt-12 flex flex-col gap-3 text-sm text-muted-foreground" role="list">
+        <li className="flex items-center gap-3">
+          <Calendar className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
+          <span>14 June 1999</span>
+        </li>
         <li className="flex items-center gap-3">
           <MapPin className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
           <span>Thailand</span>
