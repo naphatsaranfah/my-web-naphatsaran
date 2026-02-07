@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[16839,["/_next/static/chunks/4e3c1fdf60115f05.js","/_next/static/chunks/cc9b7f3d0137e97c.js"],"ViewportBoundary"]
+3:I[16839,["/_next/static/chunks/4e3c1fdf60115f05.js","/_next/static/chunks/cc9b7f3d0137e97c.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"uGu-57avC3MDt3NH3KQi-","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Naphatsaran Intewa | Front-End Developer"}],["$","meta","1",{"name":"description","content":"Front-End Developer with over 2 years of professional experience building responsive and scalable web applications."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
