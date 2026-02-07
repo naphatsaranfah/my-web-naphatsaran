@@ -1,17 +1,17 @@
 export function AboutSection() {
   return (
-    <section id="about" aria-label="About me">
+    <section id="about" aria-label="About me" className="animate-fade-in-up animate-delay-100">
       <div className="mb-4">
         <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">ABOUT</h2>
       </div>
       <div className="flex flex-col gap-4">
-        <p className="leading-relaxed text-muted-foreground">
+        <p className="leading-relaxed text-muted-foreground transition-colors hover:text-foreground/90">
           I&apos;m a Front-End Developer based in Thailand with a passion for building accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. With over 2 years of professional experience, I specialize in creating responsive and scalable web applications using modern JavaScript frameworks.
         </p>
-        <p className="leading-relaxed text-muted-foreground">
+        <p className="leading-relaxed text-muted-foreground transition-colors hover:text-foreground/90">
           My experience spans the full project lifecycle — from requirements gathering and UI/UX design to production deployment and CI/CD pipeline support. I thrive in collaborative environments, working closely with cross-functional teams including designers, back-end developers, and DevOps engineers.
         </p>
-        <p className="leading-relaxed text-muted-foreground">
+        <p className="leading-relaxed text-muted-foreground transition-colors hover:text-foreground/90">
           Currently, my core stack includes{" "}
           <span className="font-medium text-foreground">React</span>,{" "}
           <span className="font-medium text-foreground">TypeScript</span>,{" "}

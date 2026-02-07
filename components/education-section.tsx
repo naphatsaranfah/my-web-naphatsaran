@@ -2,19 +2,19 @@ import { GraduationCap, Languages } from "lucide-react"
 
 export function EducationSection() {
   return (
-    <section id="education" aria-label="Education">
+    <section id="education" aria-label="Education" className="animate-fade-in-up animate-delay-400">
       <div className="mb-4">
         <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">EDUCATION</h2>
       </div>
       <div className="flex flex-col gap-10">
         {/* Education */}
-        <div className="flex flex-col gap-4 pb-1">
+        <div className="flex flex-col gap-4 rounded-xl border border-transparent px-4 py-3 pb-1 transition-all duration-300 hover:border-primary/20 hover:bg-card/20">
           <header className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             2018 — 2021
           </header>
           <div>
             <div className="flex items-center gap-3">
-              <GraduationCap className="h-5 w-5 text-primary" aria-hidden="true" />
+              <GraduationCap className="h-5 w-5 shrink-0 text-primary transition-transform duration-300 hover:scale-110" aria-hidden="true" />
               <h3 className="font-medium leading-snug text-foreground">
                 Burapha University
               </h3>
@@ -26,24 +26,24 @@ export function EducationSection() {
         </div>
 
         {/* Languages */}
-        <div className="flex flex-col gap-4 pb-1">
+        <div className="flex flex-col gap-4 rounded-xl border border-transparent px-4 py-3 pb-1 transition-all duration-300 hover:border-primary/20 hover:bg-card/20">
           <header className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             LANGUAGES
           </header>
           <div>
             <div className="flex items-center gap-3">
-              <Languages className="h-5 w-5 text-primary" aria-hidden="true" />
+              <Languages className="h-5 w-5 shrink-0 text-primary transition-transform duration-300 hover:scale-110" aria-hidden="true" />
               <h3 className="font-medium leading-snug text-foreground">
                 Language Proficiency
               </h3>
             </div>
             <ul className="mt-3 flex flex-col gap-2" role="list">
-              <li className="flex items-center gap-4 text-sm text-muted-foreground">
+              <li className="flex items-center gap-4 text-sm text-muted-foreground transition-colors hover:text-foreground/90">
                 <span className="font-medium text-foreground">Thai</span>
                 <span className="h-px flex-1 bg-border" />
                 <span>Native</span>
               </li>
-              <li className="flex items-center gap-4 text-sm text-muted-foreground">
+              <li className="flex items-center gap-4 text-sm text-muted-foreground transition-colors hover:text-foreground/90">
                 <span className="font-medium text-foreground">English</span>
                 <span className="h-px flex-1 bg-border" />
                 <span>Intermediate</span>

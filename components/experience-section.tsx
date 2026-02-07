@@ -103,7 +103,7 @@ function ScreenshotGallery({ screenshots }: { screenshots: Screenshot[] }) {
             key={screenshot.src}
             type="button"
             onClick={() => setSelectedImage(screenshot)}
-            className="group/img relative aspect-video overflow-hidden rounded-md border border-border/50 bg-card transition-all hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+            className="group/img relative aspect-video overflow-hidden rounded-md border border-border/50 bg-card transition-all duration-300 hover:scale-[1.02] hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
           >
             <Image
               src={screenshot.src || "/placeholder.svg"}
@@ -159,13 +159,16 @@ function ScreenshotGallery({ screenshots }: { screenshots: Screenshot[] }) {
 
 export function ExperienceSection() {
   return (
-    <section id="experience" aria-label="Work experience">
+    <section id="experience" aria-label="Work experience" className="animate-fade-in-up animate-delay-200">
       <div className="mb-4">
         <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">EXPERIENCE</h2>
       </div>
       <ol className="group/list flex flex-col gap-12" role="list">
         {experiences.map((exp) => (
-          <li key={`${exp.company}-${exp.title}`}>
+          <li
+            key={`${exp.company}-${exp.title}`}
+            className="rounded-xl border border-transparent px-4 py-4 transition-all duration-300 hover:border-primary/20 hover:bg-card/30 hover:shadow-md"
+          >
             <div className="group relative flex flex-col gap-4 pb-1">
               <header className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                 {exp.period}
@@ -201,7 +204,7 @@ export function ExperienceSection() {
                 <ul className="mt-4 flex flex-wrap gap-2" aria-label="Technologies used" role="list">
                   {exp.tags.map((tag) => (
                     <li key={tag}>
-                      <Badge variant="secondary" className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+                      <Badge variant="secondary" className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary transition-transform hover:scale-105 hover:bg-primary/20">
                         {tag}
                       </Badge>
                     </li>
