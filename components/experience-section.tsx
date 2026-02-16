@@ -33,11 +33,10 @@ const experiences: ExperienceItem[] = [
       "Developed and maintained clean, reusable, and scalable front-end code using React and TypeScript.",
       "Built responsive user interfaces using Material UI, Ant Design, and Tailwind CSS.",
       "Integrated front-end applications with RESTful APIs to support data-driven functionality.",
-      "Implemented real-time features using WebSockets and server-based communication.",
       "Collaborated with DevOps teams to support CI/CD pipelines and automated deployments.",
       "Utilized Zustand and React Query for efficient state management and data fetching.",
     ],
-    tags: ["React", "TypeScript", "Tailwind CSS", "Material UI", "Ant Design", "Zustand", "React Query", "WebSocket"],
+    tags: ["React", "TypeScript", "Tailwind CSS", "Material UI", "Ant Design", "Zustand", "React Query"],
     screenshots: [
       {
         src: "/images/hybiot1.png",
