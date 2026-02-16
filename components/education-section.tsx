@@ -7,7 +7,6 @@ export function EducationSection() {
         <h2 className="text-sm font-bold uppercase tracking-widest text-foreground">EDUCATION</h2>
       </div>
       <div className="flex flex-col gap-10">
-        {/* Education */}
         <div className="flex flex-col gap-4 rounded-xl border border-transparent px-4 py-3 pb-1 transition-all duration-300 hover:border-primary/20 hover:bg-card/20">
           <header className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             2018 — 2021
